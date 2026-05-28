@@ -1,0 +1,15 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# НОВЫЕ БИБЛИОТЕКИ
+python-jose[cryptography]==3.3.0  # для JWT
+passlib[bcrypt]==1.7.4            # для хеширования паролей
+bcrypt==4.0.1                     # алгоритм хеширования
+httpx==0.25.1                     # для HTTP-запросов к OAuth
+email-validator==2.1.0
+fastapi-pagination==0.12.4
